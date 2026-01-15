@@ -6,7 +6,7 @@ const withMDX = createMDX();
 const config = {
   output: "export",
   reactStrictMode: true,
-  basePath: "/Page",
+  // basePath: "/Page",
 };
 
 export default withMDX(config);
